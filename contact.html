@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Domesta Contact Form</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Left Image -->
+    <div class="left">
+      <img src="Image.jpg" alt="Illustration">
+    </div>
+
+    <!-- Right Form -->
+    <div class="right">
+      <h3>Contact Information <i class="fa-solid fa-paper-plane"></i></h3>
+      <h1>Let Your Domesta Guide You</h1>
+
+      <form>
+        <!-- Email & Phone -->
+        <div class="form-group half">
+          <div class="input-box">
+            <input type="email" placeholder="Your Email" required>
+             <i class="fa-solid fa-paper-plane"></i>
+          </div>
+          <div class="input-box">
+            <input type="tel" placeholder="Your Phone" required>
+            <i class="fa-solid fa-phone"></i>
+          </div>
+        </div>
+
+        <!-- Address -->
+        <div class="form-group">
+          <div class="input-box">
+            <input type="text" placeholder="Your Address" required>
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+        </div>
+
+        <!-- Message -->
+        <div class="form-group">
+          <div class="input-box">
+            <textarea placeholder="Write Message..." required></textarea>
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+        </div>
+
+        <!-- Submit -->
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
